@@ -1,0 +1,368 @@
+body {
+	/* Code à supprimer après le dev START */
+background-color: blue;
+	/* Code à supprimer aprèss END*/
+margin: 0;
+padding:0;
+}
+
+#grill {
+height: 100vh;
+display:grid;
+grid-template-columns: 2fr 1fr;
+grid-template-rows: 1fr 3fr 4fr 3fr 1fr;
+grid-template-areas:
+"header header"
+"section section"
+"article1 aside"
+"article2 article2"
+"footer footer"
+;
+grid-gap: 5px;
+}
+
+.content {
+		/* Code à supprimer après le dev START */
+background-color: yellow;
+font-size: 20px;
+font-weight: bold;
+text-transform: uppercase;
+text-align: center;
+/* Code à supprimer aprèss END*/
+padding: 10px;
+}
+
+header {
+	/* Code à supprimer après le dev START */
+background-color: aliceblue;
+/* Code à supprimer aprèss END*/
+grid-area: header;
+height: 40px;
+}
+
+#mainNav {
+/* Code à supprimer START */
+background-color: red;
+/* Code à supprimer aprèss END*/
+display: grid;
+grid-template-columns: 1fr 5fr 2fr 1fr;
+grid-template-areas:
+"logo divNone nav1 nav2"
+;
+}
+
+figcaption {
+	/* Code à supprimer START */
+background-color: blue;
+/* Code à supprimer aprèss END*/
+grid-area: logo;
+}
+
+div.menu {
+/* Code à supprimer START */
+background-color:brown;
+/* Code à supprimer aprèss END*/
+grid-area: divNone;
+}
+
+nav.nav1 {
+	/* Code à supprimer START */
+background-color:darksalmon;
+/* Code à supprimer aprèss END*/
+grid-area: nav1;
+}
+
+nav.nav2 {
+/* Code à supprimer START */
+background-color:blanchedalmond;
+/* Code à supprimer aprèss END*/
+grid-area: nav2;
+}
+
+
+
+section {
+	/* Code à supprimer après le dev START */
+background-color:antiquewhite;
+/* Code à supprimer aprèss END*/
+grid-area:section;
+}
+
+article.article1 {
+/* Code à supprimer après le dev START */
+background-color:aquamarine;
+/* Code à supprimer aprèss END*/
+grid-area: article1;
+}
+
+#article1 {
+/* Code à supprimer après le dev couleur background */
+background-color: red;
+/* Code à supprimer après le dev couleur END */
+display: grid;
+grid-template-rows: 1fr 4fr 1fr;
+}
+
+.article1 {
+/* Code à supprimer après le dev couleur background */
+background-color:blue;
+/* Code à supprimer après le dev couleur END */
+}
+
+div.tittleHosting {
+/* Code à supprimer après le dev couleur background */
+background-color: aquamarine;
+/* Code à supprimer après le dev couleur END */
+}
+
+#articleHosting {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+grid-gap: 6px;
+}
+
+article.articleHosting {
+/* Code à supprimer après le dev couleur background */
+background-color: beige;
+/* Code à supprimer après le dev couleur END */
+padding: 6px;
+}
+
+div.cardHosting1 {
+/* card1*/
+background-color:chocolate;
+}
+
+div.cardHosting2 {
+	/* card2 */
+background-color:chocolate;
+}
+
+div.cardHosting3 {
+/* card3*/
+background-color:chocolate;
+}
+
+div.cardHosting4{
+/* card4*/
+background-color:chocolate;
+}
+
+div.cardHosting5 {
+/* card5*/
+background-color:chocolate;
+}
+
+div.cardHosting6 {
+/* card6*/
+background-color:chocolate;
+}
+
+div.moreLink {
+/* Code à supprimer après le dev couleur background */
+background-color: cadetblue;
+/* Code à supprimer après le dev couleur END */
+}
+
+#asideArticle {
+display: grid;
+grid-template-rows: 1fr 3fr;
+grid-gap: 4px;
+}
+
+aside {
+/* Code à supprimer après le dev START */
+background-color:cadetblue;
+/* Code à supprimer aprèss END*/
+grid-area: aside;
+}
+
+aside.asideArticle {
+	/* Code à supprimer après le dev START */
+background-color: red;
+/* Code à supprimer aprèss END*/
+}
+
+#asideCard {
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-gap: 6px;
+}
+
+.asideCard {
+padding: 6px;
+}
+
+.cardAside1 {
+	/* Code à supprimer après le dev START */
+background-color: grey;
+/* Code à supprimer aprèss END*/
+}
+
+.cardAside2 {
+	/* Code à supprimer après le dev START */
+background-color: grey;
+/* Code à supprimer aprèss END*/
+}
+
+.cardAside3 {
+/* Code à supprimer après le dev START */
+background-color: grey;
+/* Code à supprimer aprèss END*/
+}
+
+article.article2 {
+/* Code à supprimer après le dev START */
+background-color:chocolate;
+/* Code à supprimer aprèss END*/
+grid-area: article2;
+}
+
+#article2 {
+background-color: blue;
+display: grid;
+grid-template-rows: 1fr 5fr;
+}
+
+div.activitiesTitle {
+/* Effacer START */
+background-color: azure;
+/* Effeceer END */
+}
+
+#article2Card {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+grid-template-areas:
+"cardAct1 cardAct2 cardAct4 cardAct5"
+"cardAct1 cardAct3 cardAct4 cardAct6"
+;
+grid-gap: 4px;
+}
+
+.cardAct1 {
+	/* Effacer START */
+background-color: aquamarine;
+/* Effeceer END */
+grid-area: cardAct1;
+}
+
+.cardAct2 {
+	/* Effacer START */
+	background-color: aqua;
+	/* Effeceer END */
+	grid-area: cardAct2;
+}
+
+.cardAct3 {
+	/* Effacer START */
+	background-color: brown;
+	/* Effeceer END */
+	grid-area: cardAct3;
+}
+
+.cardAct4 {
+	/* Effacer START */
+	background-color: chocolate;
+	/* Effeceer END */
+	grid-area: cardAct4;
+}
+
+.cardAct5 {
+	/* Effacer START */
+	background-color: darkcyan;
+	/* Effeceer END */
+	grid-area: cardAct5;
+}
+
+.cardAct6 {
+	/* Effacer START */
+	background-color: bisque;
+	/* Effeceer END */
+	grid-area: cardAct6;
+}
+
+article.article2Card {
+/* Effacer START */
+background-color:chartreuse;
+/* Effeceer END */
+}
+
+footer{
+	/* Code à supprimer après le dev START */
+background-color:darkorchid;
+/* Code à supprimer aprèss END*/
+grid-area: footer;
+}
+
+@media screen and (min-width:600px) and (max-width:980px)
+{
+
+#articleHosting {
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+grid-gap: 4px;
+}
+
+/*
+#article2Card {
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+grid-template-areas:
+"cardAct1 cardAct2"
+"cardAct1 cardAct3"
+"cardAct4 cardAct5"
+"cardAct4 cardAct6"
+;
+}
+*/
+
+}
+
+@media screen and (max-width:600px)
+{
+#grill {
+grid-template-columns: 1fr;
+grid-template-rows: 1fr 3fr 4fr 3fr 1fr;
+grid-template-areas:
+"header"
+"section"
+"aside"
+"article1"
+"article2"
+"footer"
+;
+}
+
+#mainNav {
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+grid-template-areas:
+"logo nav2"
+"nav1 nav1"
+;
+}
+
+div.menu {
+display: none;
+}
+
+#articleHosting {
+grid-template-columns: 1fr;
+grid-gap: 4px;
+}
+
+#article2Card {
+grid-template-columns: 1fr;
+grid-template-areas:
+"cardAct1"
+"cardAct2"
+"cardAct3"
+"cardAct4"
+"cardAct5"
+"cardAct6"
+;
+}
+}
