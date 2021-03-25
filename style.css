@@ -126,7 +126,7 @@ article.articleHosting {
 /* Code à supprimer après le dev couleur background */
 background-color: beige;
 /* Code à supprimer après le dev couleur END */
-padding: 6px;
+padding: 2px;
 }
 
 div.cardHosting1 {
@@ -163,6 +163,9 @@ div.moreLink {
 /* Code à supprimer après le dev couleur background */
 background-color: cadetblue;
 /* Code à supprimer après le dev couleur END */
+height: 30px;
+text-align: left;
+padding-left: 10px;
 }
 
 #asideArticle {
