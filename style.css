@@ -16,7 +16,7 @@ a {
   }
 
 main{
-  margin: 80px;
+  margin: 20px;
   font-family: "Raleway", sans-serif;
   text-transform: none;
 	}
@@ -47,10 +47,10 @@ h2 {
         }
 
 #grill {
-height: 1000vh;
+height: 100vh;
 display:grid;
 grid-template-columns: 2fr 1fr;
-grid-template-rows: 1fr 2fr 4fr 2fr 1fr;
+grid-template-rows: 1fr 3fr 4fr 3fr 1fr;
 grid-template-areas:
 "header header"
 "section section"
@@ -324,8 +324,6 @@ border-top-right-radius: 20px;
 div.cardHosting1 {
 /* card1*/
 border-radius: 20px;
-height: 195px;
-width: 240px;
 background-color: #ffffff;
 margin: 20px;
 overflow:hidden;
@@ -334,8 +332,6 @@ overflow:hidden;
 div.cardHosting2 {
 	/* card2 */
 border-radius: 20px;
-height: 195px;
-width: 240px;
 background-color: #ffffff;
 margin: 20px;
 overflow:hidden;
@@ -344,8 +340,6 @@ overflow:hidden;
 div.cardHosting3 {
 /* card3*/
 border-radius: 20px;
-height: 195px;
-width: 240px;
 background-color: #ffffff;
 margin: 20px;
 overflow:hidden;
@@ -354,8 +348,6 @@ overflow:hidden;
 div.cardHosting4{
 /* card4*/
 border-radius: 20px;
-height: 195px;
-width: 240px;
 background-color: #ffffff;
 margin: 20px;
 overflow:hidden;
@@ -364,8 +356,6 @@ overflow:hidden;
 div.cardHosting5 {
 /* card5*/
 border-radius: 20px;
-height: 195px;
-width: 240px;
 background-color: #ffffff;
 margin: 20px;
 overflow:hidden;
@@ -374,8 +364,6 @@ overflow:hidden;
 div.cardHosting6 {
 /* card6*/
 border-radius: 20px;
-height: 195px;
-width: 240px;
 background-color: #ffffff;
 margin: 20px;
 overflow:hidden;
@@ -415,7 +403,6 @@ margin: 0;
     font-size: 8px;
   }
 
-
 div.moreLink {
 height: 30px;
 text-align: left;
@@ -428,7 +415,15 @@ font-weight: bold;
 #asideArticle {
 display: grid;
 grid-template-rows: 1fr 3fr;
-grid-gap: 4px;
+grid-gap: 2px;
+}
+
+div.titleAside {
+	height: 20px;
+padding-top: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+    font-size: 15px;
 }
 
 aside {
@@ -439,6 +434,10 @@ aside.asideArticle {
 	margin: 5px;
 border-radius: 20px;
 background-color: #f2f2f2;
+}
+
+aside.asideArticle figure{
+margin:0px;
 }
 
 #asideCard {
@@ -452,27 +451,54 @@ padding: 6px;
 }
 
 .cardAside1 {
-	/* Code à supprimer après le dev START */
-background-color: grey;
-/* Code à supprimer aprèss END*/
+	border-radius: 20px;
+    background-color: #ffffff;
+    overflow: hidden;
+    padding: 5px;
 }
 
 .cardAside2 {
-	/* Code à supprimer après le dev START */
-background-color: grey;
-/* Code à supprimer aprèss END*/
+border-radius: 20px;
+    background-color: #ffffff;
+    overflow: hidden;
+    padding: 5px;
 }
 
 .cardAside3 {
-/* Code à supprimer après le dev START */
-background-color: grey;
-/* Code à supprimer aprèss END*/
+border-radius: 20px;
+    background-color: #ffffff;
+    overflow: hidden;
+    padding: 5px;
+}
+
+#asideCard img {
+float: left;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+	width: auto;
+	height: 133px;
+    overflow: hidden;
+    padding: 5px;
+}
+
+#asideCard h3 {
+margin-left: 10px;
+  padding-top: 10px;
+  font-size: 10px;
+}
+
+#asideCard p {
+padding-left: 10px;
+    font-size: 10px;
+}
+
+#asideCard .stars {
+padding-left: 10px;
+  font-size: 8px;
+  padding-top: 90px;
 }
 
 article.article2 {
-/* Code à supprimer après le dev START */
-background-color:chocolate;
-/* Code à supprimer aprèss END*/
 grid-area: article2;
 }
 
@@ -483,9 +509,10 @@ grid-template-rows: 1fr 5fr;
 }
 
 div.activitiesTitle {
-/* Effacer START */
-background-color: azure;
-/* Effeceer END */
+height: 30px;
+padding-top: 10px;
+font-size: 15px;
+font-weight: bold;
 }
 
 #article2Card {
@@ -500,10 +527,9 @@ grid-gap: 4px;
 }
 
 .cardAct1 {
-	/* Effacer START */
-background-color: aquamarine;
-/* Effeceer END */
 grid-area: cardAct1;
+border: 1px solid black;
+    border-radius: 10px;
 }
 
 .cardAct2 {
